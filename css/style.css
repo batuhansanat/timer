@@ -1,0 +1,31 @@
+h1{
+    font-family: sans-serif;
+    font-size: 5rem;
+}
+
+hr{
+    color:antiquewhite;
+    
+}
+
+.timer-text{
+    font-family: sans-serif;
+    font-size: 10rem;
+    color:antiquewhite;
+}
+
+.timer-input{
+    width: 30%;
+    font-size: 3rem;
+    margin-right:5rem;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+#error{
+    display: none;
+}
+
+#success{
+    display: none;
+}
