@@ -10,6 +10,7 @@ let btnReset = document.querySelector("#btnReset")
 
 let errorText = document.getElementById("error")
 let successText = document.getElementById("success")
+let h1Text = document.getElementById("h1text")
 
 //!Event Listener
 minInput.addEventListener('change',() =>{
@@ -64,6 +65,7 @@ function ResetInput(){
 }
 
 function StartTimer(){
+    h1Text.style.display = "none"
     let minute = minInput.value
     let second = secInput.value
 
